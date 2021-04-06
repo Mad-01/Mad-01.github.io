@@ -136,9 +136,11 @@
     margin: 0;
     height: 0%;
 }
+/* End Contact-section */
 
+/* Start Profile-link */
 .profile-link {
-    margin: 10px;
+    margin: 5px;
     font-size: 50px;
     text-align: center;
 }
@@ -147,7 +149,12 @@
     font-size: 50px;
     color: black;
 } 
-/* End Contact-section */
+
+.profile-link h2 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* End Profile-link */
 
 /* Liste uten punkter */
 ul.no-bullets {
