@@ -43,9 +43,9 @@
     text-decoration: none;
 }
 
-  .nav li a:hover {
+.nav li a:hover {
     background-color: turquoise;
-  }
+}
 /* End Navbar */
 
 /* Start Welcome-section */
@@ -63,8 +63,7 @@
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
-  }
-
+}
 /* End Welcome-section */  
 
 /* Start Projects-section */
@@ -116,15 +115,15 @@
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 10px;
-  }
+}
   
-  .grid-item {
+.grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
-  }
+}
 /* End Grid */
 
 /* Start Contact-section */
@@ -137,6 +136,17 @@
     margin: 0;
     height: 0%;
 }
+
+.profile-link {
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+.profile-link a {
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+} 
 /* End Contact-section */
 
 /* Liste uten punkter */
@@ -145,3 +155,19 @@ ul.no-bullets {
     margin: 0;
     padding: 0;
   }
+
+/* Start Media Query */
+@media (max-width: 600px) {
+    body {
+     background-color: black;
+     color: white;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-section {
+      background-color: black;
+      color: white;
+    }
+}
+/* End Media Query */ 
