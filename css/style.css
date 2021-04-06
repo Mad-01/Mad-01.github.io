@@ -158,6 +158,20 @@ ul.no-bullets {
 
 /* Start Media Query */
 @media (max-width: 600px) {
+    .nav li a {
+      background-color: black;
+    }
+
+    .nav ul {
+        background-color: white;
+    }
+
+    .nav li a:hover {
+        background-color: turquoise;
+    }
+}
+
+@media (max-width: 600px) {
     body {
      background-color: black;
      color: white;
