@@ -165,6 +165,13 @@ ul.no-bullets {
 
 /* Start Media Query */
 @media (max-width: 600px) {
+    .head {
+     background-color: black;
+     color: white;
+    }
+}
+
+@media (max-width: 600px) {
     .nav li a {
       background-color: black;
     }
@@ -189,6 +196,14 @@ ul.no-bullets {
     .contact-section {
       background-color: black;
       color: white;
+    }
+}
+
+@media (max-width: 600px) {
+    .profile-link a {
+        text-decoration: none;
+        font-size: 50px;
+        color: darkblue;
     }
 }
 /* End Media Query */ 
