@@ -193,6 +193,12 @@ ul.no-bullets {
 }
 
 @media (max-width: 600px) {
+    .projects-section {
+        color: white;
+    }
+}
+
+@media (max-width: 600px) {
     .grid-container {
         display: grid;
         grid-column-gap: 10px;
@@ -225,12 +231,6 @@ ul.no-bullets {
         text-decoration: none;
         font-size: 50px;
         color: darkblue;
-    }
-}
-
-@media (max-width: 600px) {
-    .projects-section {
-        color: white;
     }
 }
 /* End Media Query */ 
