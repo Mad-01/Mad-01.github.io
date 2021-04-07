@@ -91,9 +91,10 @@
     font-size: 36px;
 }
 
-#background-image {
+.background-image {
     background-image:image(#ffffff 100%, #ffffff 100%);
     background-size: auto;
+    background-position:unset;
 }
 
 .projects-tile {
