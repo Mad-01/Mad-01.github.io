@@ -185,12 +185,12 @@ ul.no-bullets {
 
 @media (max-width: 600px) {
     .nav li a {
-      background-color: black;
+      background-color: rgb(255, 255, 255);
+      color: black;
     }
 
     .nav ul {
         background-color: white;
-    }
 
     .nav li a:hover {
         background-color: turquoise;
