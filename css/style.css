@@ -257,7 +257,7 @@ ul.no-bullets {
     .profile-link a {
         text-decoration: none;
         font-size: 50px;
-        color: darkblue;
+        color: rgb(67, 67, 214);
     }
 }
 /* End Media Query */ 
