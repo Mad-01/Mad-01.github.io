@@ -191,6 +191,7 @@ ul.no-bullets {
 
     .nav ul {
         background-color: white;
+    }
 
     .nav li a:hover {
         background-color: turquoise;
