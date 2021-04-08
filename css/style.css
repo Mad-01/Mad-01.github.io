@@ -207,6 +207,16 @@ ul.no-bullets {
 }
 
 @media (max-width: 600px) {
+    .welcome-section {
+        background-color: #000;
+        text-align: center;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 600px) {
     .projects-section {
         color: white;
     }
