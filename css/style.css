@@ -8,7 +8,7 @@
     padding: 2px;
 }
 
-#head h1 {
+#head > h1 {
     font-size: 80px;
     text-align: left;
     padding: 0px;
@@ -76,7 +76,7 @@
     padding: 2px;
 }
 
-.projects-section h2 {
+.projects-section > h2 {
     color: blue;
     text-align: center;
     font-size: 28px;
@@ -157,13 +157,13 @@
     font-size: 50px;
     text-align: center;
 }
-.profile-link a {
+.profile-link > a {
     text-decoration: none;
     font-size: 50px;
     color: black;
 } 
 
-.profile-link h2 {
+.profile-link > h2 {
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -266,7 +266,7 @@ ul.no-bullets {
 }
 
 @media (max-width: 600px) {
-    .profile-link a {
+    .profile-link > a {
         text-decoration: none;
         font-size: 50px;
         color: rgb(67, 67, 214);
