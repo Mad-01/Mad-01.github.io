@@ -76,12 +76,13 @@
     padding: 2px;
 }
 
-.projects-section > h2 {
-    color: blue;
+.projects-section > h1 {
+    color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 28px;
+    font-size: 40px;
     padding: 0%;
     font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline wavy blue;
 }
 
 .projects-one {
@@ -221,18 +222,23 @@ ul.no-bullets {
         color: white;
     }
 
+    .projects-section > h1 {
+        color: white;
+        font-size: 40px;
+    }
+
     .projects-one {
-        font-size: 36px;
+        font-size: 28px;
         color: white;
     }
     
     .projects-two {
-        font-size: 36px;
+        font-size: 28px;
         color: #080ceb;
     }
  
-    .projects-one {
-        font-size: 36px;
+    .projects-three {
+        font-size: 28px;
         color: white;
     }
 }
