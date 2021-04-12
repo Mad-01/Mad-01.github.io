@@ -73,7 +73,7 @@
     text-align: center;
     font-size: 36px;
     font-family: 'Times New Roman', Times, serif;
-    padding: 2px;
+    padding: 0%;
 }
 
 .projects-section > h1 {
@@ -82,7 +82,7 @@
     font-size: 40px;
     padding: 0%;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline wavy blue;
+    text-decoration: underline wavy white;
 }
 
 .projects-one {
@@ -143,8 +143,19 @@
 /* Start Contact-section */
 .contact-section {
     color: black;
+    background-color: blue;
     text-align: left;
     font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+    margin: 0;
+    height: 0%;
+}
+
+.contact-section > h1 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     padding: 2px;
     margin: 0;
@@ -268,6 +279,10 @@ ul.no-bullets {
     .contact-section {
       background-color: black;
       color: white;
+    }
+
+    .contact-section > h1 {
+        color: white;
     }
 }
 
