@@ -97,6 +97,13 @@
     font-size: 36px;
 }
 
+.projects-section-info {
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .background-image {
     background-image:image(#ffffff 100%, #ffffff 100%);
     background-size: auto;
