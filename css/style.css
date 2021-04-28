@@ -108,12 +108,17 @@
     font-size: 20px;
     color: #000;
     font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
 }
 
 .projects-section-info > br {
     text-align: left;
     font-size: 16px;
     color: #000;
+}
+
+.projects-section-info > p {
+    line-height: 16px;
 }
 
 .background-image {
