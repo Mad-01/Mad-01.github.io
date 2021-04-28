@@ -1,6 +1,6 @@
 /* Start Head */
 .header {
-    background-color: white;
+    background-color: rgb(82, 184, 243);
     color: black;
     text-align: left;
     font-size: 100px;
@@ -17,6 +17,12 @@
     color: black;
 }
 /* End Head */
+
+/* Start Body */
+.body-section {
+    background-color:rgba(82, 184, 243, 0.719);
+}
+/* End Body */
 
 /* Start Navbar */
 .nav {
