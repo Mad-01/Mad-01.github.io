@@ -96,7 +96,7 @@
 
 .projects-two {
     font-size: 36px;
-    color: #080ceb;
+    color: rgba(82, 184, 243, 0.719);
 }
 
 .projects-three {
@@ -105,9 +105,15 @@
 
 .projects-section-info {
     text-align: left;
-    font-size: 24px;
+    font-size: 20px;
     color: #000;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.projects-section-info > br {
+    text-align: left;
+    font-size: 16px;
+    color: #000;
 }
 
 .background-image {
@@ -155,7 +161,7 @@
 /* Start Contact-section */
 .contact-section {
     color: black;
-    background-color: rgb(157, 157, 255);
+    background-color: rgba(168, 162, 201, 0.856);
     text-align: left;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
