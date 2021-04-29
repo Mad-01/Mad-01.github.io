@@ -82,6 +82,14 @@
     padding: 0%;
 }
 
+.projects-tile {
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
+}
+
 .projects-section > h1 {
     color: rgb(0, 0, 0);
     text-align: center;
@@ -125,14 +133,6 @@
     background-image:image(#ffffff 100%, #ffffff 100%);
     background-size: auto;
     background-position: right;
-}
-
-.projects-tile {
-    color: black;
-    text-align: left;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 2px;
 }
 /* End Project-section */
 
